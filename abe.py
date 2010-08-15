@@ -79,6 +79,6 @@ while nstates < 10**5:
 #lets get a quote for a bid of 1 dollar on team 1 winning game 1.
 
 
-# Research question: Suppose the generative prior has some draw of team skills for the whole tournament, and then a draw using that as a mean for each game. Then rising the prob of a win on a game should make it more likely that the winer will win mroe and the looser will loose more. We could have a learner (inthis case that bids on outcomes in t based on prices in t-1) do this, but perhaps there is a beter way?
+# Note the generative prior if we included team level latent variables, then updates to a tema would give more weight to scenarios where that temas latent variable was high so the prior joins the prices together
 
 
